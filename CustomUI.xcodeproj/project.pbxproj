@@ -13,6 +13,13 @@
 		DDAF8A2019C15BAC00BF82CD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDAF8A1F19C15BAC00BF82CD /* Images.xcassets */; };
 		DDAF8A2319C15BAC00BF82CD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDAF8A2119C15BAC00BF82CD /* LaunchScreen.xib */; };
 		DDAF8A2F19C15BAC00BF82CD /* CustomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF8A2E19C15BAC00BF82CD /* CustomUITests.swift */; };
+		DDAF8A4219C15FBF00BF82CD /* OZGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = DDAF8A4119C15FBF00BF82CD /* OZGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DDAF8A4E19C15FBF00BF82CD /* OZGradientViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF8A4D19C15FBF00BF82CD /* OZGradientViewTests.swift */; };
+		DDAF8A5119C15FBF00BF82CD /* OZGradientView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF8A3D19C15FBF00BF82CD /* OZGradientView.framework */; };
+		DDAF8A5219C15FBF00BF82CD /* OZGradientView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF8A3D19C15FBF00BF82CD /* OZGradientView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DDAF8A5F19C1605500BF82CD /* OZGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF8A5E19C1605500BF82CD /* OZGradientView.swift */; };
+		DDAF8A6119C1633D00BF82CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF8A6019C1633D00BF82CD /* QuartzCore.framework */; };
+		DDAF8A6219C1646800BF82CD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDAF8A6019C1633D00BF82CD /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,42 @@
 			remoteGlobalIDString = DDAF8A1219C15BAC00BF82CD;
 			remoteInfo = CustomUI;
 		};
+		DDAF8A4819C15FBF00BF82CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF8A0B19C15BAC00BF82CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAF8A1219C15BAC00BF82CD;
+			remoteInfo = CustomUI;
+		};
+		DDAF8A4F19C15FBF00BF82CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF8A0B19C15BAC00BF82CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAF8A3C19C15FBF00BF82CD;
+			remoteInfo = OZGradientView;
+		};
+		DDAF8A5319C15FBF00BF82CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDAF8A0B19C15BAC00BF82CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDAF8A3C19C15FBF00BF82CD;
+			remoteInfo = OZGradientView;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDAF8A5819C15FBF00BF82CD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DDAF8A5219C15FBF00BF82CD /* OZGradientView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DDAF8A1319C15BAC00BF82CD /* CustomUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +78,14 @@
 		DDAF8A2819C15BAC00BF82CD /* CustomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDAF8A2D19C15BAC00BF82CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDAF8A2E19C15BAC00BF82CD /* CustomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITests.swift; sourceTree = "<group>"; };
+		DDAF8A3D19C15FBF00BF82CD /* OZGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OZGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAF8A4019C15FBF00BF82CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAF8A4119C15FBF00BF82CD /* OZGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OZGradientView.h; sourceTree = "<group>"; };
+		DDAF8A4719C15FBF00BF82CD /* OZGradientViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OZGradientViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAF8A4C19C15FBF00BF82CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDAF8A4D19C15FBF00BF82CD /* OZGradientViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OZGradientViewTests.swift; sourceTree = "<group>"; };
+		DDAF8A5E19C1605500BF82CD /* OZGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OZGradientView.swift; sourceTree = "<group>"; };
+		DDAF8A6019C1633D00BF82CD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,10 +93,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAF8A6219C1646800BF82CD /* QuartzCore.framework in Frameworks */,
+				DDAF8A5119C15FBF00BF82CD /* OZGradientView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DDAF8A2519C15BAC00BF82CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAF8A3919C15FBF00BF82CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF8A6119C1633D00BF82CD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAF8A4419C15FBF00BF82CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,8 +126,11 @@
 		DDAF8A0A19C15BAC00BF82CD = {
 			isa = PBXGroup;
 			children = (
+				DDAF8A6019C1633D00BF82CD /* QuartzCore.framework */,
 				DDAF8A1519C15BAC00BF82CD /* CustomUI */,
 				DDAF8A2B19C15BAC00BF82CD /* CustomUITests */,
+				DDAF8A3E19C15FBF00BF82CD /* OZGradientView */,
+				DDAF8A4A19C15FBF00BF82CD /* OZGradientViewTests */,
 				DDAF8A1419C15BAC00BF82CD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +140,8 @@
 			children = (
 				DDAF8A1319C15BAC00BF82CD /* CustomUI.app */,
 				DDAF8A2819C15BAC00BF82CD /* CustomUITests.xctest */,
+				DDAF8A3D19C15FBF00BF82CD /* OZGradientView.framework */,
+				DDAF8A4719C15FBF00BF82CD /* OZGradientViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +184,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DDAF8A3E19C15FBF00BF82CD /* OZGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF8A4119C15FBF00BF82CD /* OZGradientView.h */,
+				DDAF8A5E19C1605500BF82CD /* OZGradientView.swift */,
+				DDAF8A3F19C15FBF00BF82CD /* Supporting Files */,
+			);
+			path = OZGradientView;
+			sourceTree = "<group>";
+		};
+		DDAF8A3F19C15FBF00BF82CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF8A4019C15FBF00BF82CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDAF8A4A19C15FBF00BF82CD /* OZGradientViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF8A4D19C15FBF00BF82CD /* OZGradientViewTests.swift */,
+				DDAF8A4B19C15FBF00BF82CD /* Supporting Files */,
+			);
+			path = OZGradientViewTests;
+			sourceTree = "<group>";
+		};
+		DDAF8A4B19C15FBF00BF82CD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF8A4C19C15FBF00BF82CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DDAF8A3A19C15FBF00BF82CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF8A4219C15FBF00BF82CD /* OZGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		DDAF8A1219C15BAC00BF82CD /* CustomUI */ = {
@@ -122,10 +240,13 @@
 				DDAF8A0F19C15BAC00BF82CD /* Sources */,
 				DDAF8A1019C15BAC00BF82CD /* Frameworks */,
 				DDAF8A1119C15BAC00BF82CD /* Resources */,
+				DDAF8A5819C15FBF00BF82CD /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DDAF8A5019C15FBF00BF82CD /* PBXTargetDependency */,
+				DDAF8A5419C15FBF00BF82CD /* PBXTargetDependency */,
 			);
 			name = CustomUI;
 			productName = CustomUI;
@@ -150,6 +271,42 @@
 			productReference = DDAF8A2819C15BAC00BF82CD /* CustomUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DDAF8A3C19C15FBF00BF82CD /* OZGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAF8A5519C15FBF00BF82CD /* Build configuration list for PBXNativeTarget "OZGradientView" */;
+			buildPhases = (
+				DDAF8A3819C15FBF00BF82CD /* Sources */,
+				DDAF8A3919C15FBF00BF82CD /* Frameworks */,
+				DDAF8A3A19C15FBF00BF82CD /* Headers */,
+				DDAF8A3B19C15FBF00BF82CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OZGradientView;
+			productName = OZGradientView;
+			productReference = DDAF8A3D19C15FBF00BF82CD /* OZGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDAF8A4619C15FBF00BF82CD /* OZGradientViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDAF8A5919C15FBF00BF82CD /* Build configuration list for PBXNativeTarget "OZGradientViewTests" */;
+			buildPhases = (
+				DDAF8A4319C15FBF00BF82CD /* Sources */,
+				DDAF8A4419C15FBF00BF82CD /* Frameworks */,
+				DDAF8A4519C15FBF00BF82CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDAF8A4919C15FBF00BF82CD /* PBXTargetDependency */,
+			);
+			name = OZGradientViewTests;
+			productName = OZGradientViewTests;
+			productReference = DDAF8A4719C15FBF00BF82CD /* OZGradientViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -163,6 +320,13 @@
 						CreatedOnToolsVersion = 6.0;
 					};
 					DDAF8A2719C15BAC00BF82CD = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = DDAF8A1219C15BAC00BF82CD;
+					};
+					DDAF8A3C19C15FBF00BF82CD = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					DDAF8A4619C15FBF00BF82CD = {
 						CreatedOnToolsVersion = 6.0;
 						TestTargetID = DDAF8A1219C15BAC00BF82CD;
 					};
@@ -183,6 +347,8 @@
 			targets = (
 				DDAF8A1219C15BAC00BF82CD /* CustomUI */,
 				DDAF8A2719C15BAC00BF82CD /* CustomUITests */,
+				DDAF8A3C19C15FBF00BF82CD /* OZGradientView */,
+				DDAF8A4619C15FBF00BF82CD /* OZGradientViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +365,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DDAF8A2619C15BAC00BF82CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAF8A3B19C15FBF00BF82CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAF8A4519C15FBF00BF82CD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +405,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DDAF8A3819C15FBF00BF82CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF8A5F19C1605500BF82CD /* OZGradientView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAF8A4319C15FBF00BF82CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF8A4E19C15FBF00BF82CD /* OZGradientViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +428,21 @@
 			isa = PBXTargetDependency;
 			target = DDAF8A1219C15BAC00BF82CD /* CustomUI */;
 			targetProxy = DDAF8A2919C15BAC00BF82CD /* PBXContainerItemProxy */;
+		};
+		DDAF8A4919C15FBF00BF82CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAF8A1219C15BAC00BF82CD /* CustomUI */;
+			targetProxy = DDAF8A4819C15FBF00BF82CD /* PBXContainerItemProxy */;
+		};
+		DDAF8A5019C15FBF00BF82CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAF8A3C19C15FBF00BF82CD /* OZGradientView */;
+			targetProxy = DDAF8A4F19C15FBF00BF82CD /* PBXContainerItemProxy */;
+		};
+		DDAF8A5419C15FBF00BF82CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDAF8A3C19C15FBF00BF82CD /* OZGradientView */;
+			targetProxy = DDAF8A5319C15FBF00BF82CD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -386,6 +597,83 @@
 			};
 			name = Release;
 		};
+		DDAF8A5619C15FBF00BF82CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OZGradientView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDAF8A5719C15FBF00BF82CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = OZGradientView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDAF8A5A19C15FBF00BF82CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OZGradientViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomUI.app/CustomUI";
+			};
+			name = Debug;
+		};
+		DDAF8A5B19C15FBF00BF82CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OZGradientViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomUI.app/CustomUI";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +699,22 @@
 			buildConfigurations = (
 				DDAF8A3619C15BAC00BF82CD /* Debug */,
 				DDAF8A3719C15BAC00BF82CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDAF8A5519C15FBF00BF82CD /* Build configuration list for PBXNativeTarget "OZGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAF8A5619C15FBF00BF82CD /* Debug */,
+				DDAF8A5719C15FBF00BF82CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDAF8A5919C15FBF00BF82CD /* Build configuration list for PBXNativeTarget "OZGradientViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDAF8A5A19C15FBF00BF82CD /* Debug */,
+				DDAF8A5B19C15FBF00BF82CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
